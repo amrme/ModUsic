@@ -1,0 +1,53 @@
+body {
+  background: url("./bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+ /*brand name title*/
+.brand_name {
+  /*font-family: sans-serif;*/
+  font-family:verdana;
+  font-size: 5em;
+  text-align: center;
+}
+
+.my-button {
+  font-size: 3em;
+}
+
+.mode-text {
+  font-size: 4em;
+  color: white;
+}
+
+.about {
+  font-size: 2em;
+  color: black;
+}
+
+.well {
+  background-color: rgba(245, 245, 245, 0.7);
+}
+.container {
+  margin: 20px 0px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+.footer {
+  /*background: black;*/
+  height: 32px;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.love {
+  color: red;
+  font-family: Impact, Charcoal, sans-serif
+}
