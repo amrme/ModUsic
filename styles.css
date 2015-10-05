@@ -1,5 +1,5 @@
 body {
-  background: url("./bg.png") no-repeat center center fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("./bg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,10 +9,10 @@ body {
 
  /*brand name title*/
 .brand_name {
-  /*font-family: sans-serif;*/
-  font-family:verdana;
+  font-family: Impact, fantasy;
   font-size: 5em;
   text-align: center;
+  color: #3399FF;
 }
 
 .my-button {
