@@ -9,6 +9,7 @@ body {
 
  /*brand name title*/
 .brand_name {
+  margin-top: -0.5%;
   font-family: Impact, fantasy;
   font-size: 5em;
   text-align: center;
@@ -17,6 +18,11 @@ body {
 
 .my-button {
   font-size: 3em;
+}
+
+.button-att {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .mode-text {
@@ -32,22 +38,44 @@ body {
 .well {
   background-color: rgba(245, 245, 245, 0.7);
 }
-.container {
-  margin: 20px 0px;
-  margin-top: 20px;
-  margin-right: 0px;
-  margin-bottom: 20px;
-  margin-left: 0px;
-}
+
 .footer {
-  /*background: black;*/
-  height: 32px;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
 }
 
 .love {
   color: red;
   font-family: Impact, Charcoal, sans-serif
+}
+
+/* video-space is the space in which each video will get displayed */
+.video-space iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* instructions on how to use it */
+/*.instructions {
+  font-size: 2em;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  color: #3399FF;
+  font-family: Impact, fantasy;
+}*/
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none !important;
+  outline: 0 !important;
+}
+
+button {
+  text-decoration: none !important;
+  outline: 0 !important;
+}
+
+.work-area {
+    margin-bottom: 3%;
 }
